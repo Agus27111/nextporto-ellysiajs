@@ -11,4 +11,5 @@ app.onError(errorHandler);
 
 export const GET = app.handle;
 export const POST = app.handle;
-export const fetch = app.fetch; // Ekspor handler fetch untuk digunakan oleh Next.js
+export const PUT = app.handle;
+export const DELETE = app.handle;
